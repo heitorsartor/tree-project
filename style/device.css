@@ -82,24 +82,36 @@ div.price p {
 }
 
 button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
     margin: auto;
     width: 100%;
-    height: 60px;
+    height: 70px;
     background-color: var(--button);
     padding: 10px;
     font-size: 18px;
-    font-family: var(--title-text);
-    font-weight: normal;
+    font-family: var(--primary-text);
+    font-weight: bold;
     border: none;
     border-radius: 10px;
-    margin-bottom: 25px;
+    margin: 25px 0px;
+}
+
+button svg {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-400%, -40%);
+    width: 20px;
+    margin: auto;
 }
 
 button a {
     text-decoration: none;
     color: white;
     padding: 20px;
+}
+
+button:hover {
+    background-color: hsl(228, 12%, 48%);
+    cursor: pointer;
 }

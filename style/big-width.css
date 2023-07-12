@@ -1,0 +1,33 @@
+section {
+    display:flex;
+    width: 45vw;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+div.description, div.button, div.price {
+    width: 80%;
+    margin: auto;
+}
+
+div.description {
+    flex:50%;
+}
+
+img {
+    flex: 100%;
+}
+
+img {
+    height: 100%;
+}
+
+div.description p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+button {
+    height: 60px;
+}
+
